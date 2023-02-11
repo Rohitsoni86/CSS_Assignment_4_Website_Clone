@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Cards</title>
+    <style>
+
+        .mainCardContainer{
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .card{
+            display: flex;
+    flex-direction: column;
+    width: 500px;
+    border: 2px solid black;
+    padding: 12px;
+    margin: 22px;
+        }
+        .card_image_Section{
+            display: inline-block;
+    object-fit: fill;
+        }
+        
+        img{
+            width: 100%;
+            border-radius: 12px;
+        }
+           
+        .card_Text_Section{
+            display: inline-block;
+        }
+
+         h2{
+            display: inline-block;
+         }
+
+
+    </style>
+</head>
+<body>
+     
+    <div class="mainCardContainer">
+        <div class="card">
+            <div class="card_image_Section">
+                <img src="./project_1.jpg" alt="image">
+            </div>
+            <div class="card_Text_Section">
+                <h2>Rohit Soni</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic maiores ad quas. Nisi quam error enim incidunt, aperiam ut quis.</p>
+            </div>
+        </div>
+
+
+        
+        <div class="card">
+            <div class="card_image_Section">
+                <img src="./project_2.jpg" alt="image">
+            </div>
+            <div class="card_Text_Section">
+                <h2>Rohit Soni</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic maiores ad quas. Nisi quam error enim incidunt, aperiam ut quis.</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card_image_Section">
+                <img src="./project_3.jpg" alt="image">
+            </div>
+            <div class="card_Text_Section">
+                <h2>Rohit Soni</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic maiores ad quas. Nisi quam error enim incidunt, aperiam ut quis.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
